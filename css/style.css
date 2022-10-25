@@ -14,85 +14,93 @@ header{
 
 }
 
+
+
+
 .row-header{
-                display: flex;
-                border: 2px dashed black;
-                height: 30px;
+                display: flex; 
+                
                 width: 1080px;
-                background-color: orange;
-                flex-wrap: wrap;
+                
+                align-items: center;
                 justify-content: space-between;
 }
 
-    .col-logo{
+.col-logo{
                 
-                align-items: center;
+               
                 
 
-    }
+}
+.col-login{
+                border: 1px solid white;
+                border-radius: 20px;
+               
+                
+}
 
-    .col-login{
+.col-link{
                 
-                align-items: center;
-                width: 25%;
-                justify-content: flex-end;
                 
-    }
-
-    .col-link{
-                
-                align-items: center;
-                width: 25%;
-                align-content: center;
-                justify-content: center;
 }
 .row-blue{
                 margin-bottom: 2px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
 }
 
+
 .blue-container{
-                    display: flex;
-                    padding: 20px;                   
+             
+                    padding: 20px;                  
                     width: 100%;
-                    background-color: blue;
-                    align-items: center;
-                    justify-content: center;
+                    margin: 0 auto;
+                    background-image: url(../img/jumbo.png);
+                    min-height: 1000px;
+                    background-size: cover;
 }
 
 .violet-col{
+                text-align: center;
                     
-                    height: 300px;
-                    width: 50%;
-                    background-color: violet;
-                    border: 2px dashed black;
+                   
                     
+                    
+}
+
+.img{
+                
+                width: 100%;
+
 
 }
 
+
 .white-container{
-                        display: flex;
+                        
                         padding: 20px;
                         width: 100%;
                         background-color: white;
-                        align-items: center;
-                        justify-content: center;
+                        
+                       
     }
+.row{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+}    
 
 .light-col{
+                margin-left: 460px;
                 
-                height: 300px;
-                width: 25%;
-                background-color: rgb(134, 148, 239);
-                border: 2px dashed black;
-
 }
 
 .pink-col{
                 
-                height: 300px;
-                width: 35%;
-                background-color: pink;
-                border: 2px dashed black;   
+               
 }
 
 .grey-container{
@@ -168,3 +176,6 @@ header{
         
        
 }
+
+.h2{
+    
